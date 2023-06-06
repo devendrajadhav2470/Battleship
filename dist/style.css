@@ -1,0 +1,53 @@
+.header {
+  width: 1200px;
+  border: 2px solid blue;
+  height: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  padding-left: 100px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+.boardarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+}
+.separation {
+  height: 400px;
+  width: 50px;
+}
+.backboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+}
+.cell {
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shipcell {
+  border: 3px solid green;
+  box-shadow: 2px 2px yellow;
+}
+
+/* let us put a button there so that player can randomize the placement */
